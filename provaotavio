@@ -8,9 +8,9 @@ function analisarimc() {
     while (!terminou) {
         totalpessoas++;
 
-        var nome = prompt('Informe seu nome: ');
-        var altura = parseFloat(prompt('Informe sua altura: '));
-        var peso = parseFloat(prompt('Informe o seu peso: '));
+        var nome = prompt('Digite seu nome: ');
+        var altura = parseFloat(prompt('Digite sua altura: '));
+        var peso = parseFloat(prompt('Digite o seu peso: '));
 
         var imc = peso / (altura * altura);
 
